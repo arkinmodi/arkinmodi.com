@@ -25,6 +25,7 @@ img {
     padding-top: 0%;
 }
 
+/* remove underscore between images */
 a {
     text-decoration: none;
 }
