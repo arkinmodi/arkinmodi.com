@@ -1,8 +1,8 @@
 {
   "name": "arkinmodi.github.io",
   "version": "2.1.0",
-  "homepage": "https://arkinmodi.github.io/",
-  "repository": "https://github.com/arkinmodi/arkinmodi.github.io/",
+  "homepage": "https://arkinmodi.github.io",
+  "repository": "https://github.com/arkinmodi/arkinmodi.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -43,8 +43,11 @@
     ]
   },
   "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
+    "husky": "^7.0.4",
     "semantic-release": "^19.0.2"
   }
 }
