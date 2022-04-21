@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.1...v2.1.2) (2022-04-21)
+
+
+### Bug Fixes
+
+* remove slash in repo url ([#16](https://github.com/arkinmodi/arkinmodi.github.io/issues/16)) ([93546e3](https://github.com/arkinmodi/arkinmodi.github.io/commit/93546e3883b03ede64bbce1b1aeb19b922ef0f88))
+
 ## [2.1.1](https://github.com/arkinmodi/arkinmodi.github.io//compare/v2.1.0...v2.1.1) (2022-04-21)
 
 
