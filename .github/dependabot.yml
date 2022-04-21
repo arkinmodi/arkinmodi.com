@@ -1,0 +1,33 @@
+version: 2
+updates:
+  - directory: /
+    package-ecosystem: npm
+    schedule:
+      interval: weekly
+    target-branch: main
+    commit-message:
+      prefix: "fix"
+    labels:
+      - dependabot
+      - security
+    pull-request-branch-name:
+      separator: "-"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    target-branch: main
+    commit-message:
+      prefix: "fix"
+    labels:
+      - dependabot
+      - security
+    pull-request-branch-name:
+      separator: "-"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
