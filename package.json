@@ -1,6 +1,8 @@
 {
   "name": "arkinmodi.github.io",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
+  "homepage": "https://arkinmodi.github.io/",
+  "repository": "https://github.com/arkinmodi/arkinmodi.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -39,5 +41,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^19.0.2"
   }
 }

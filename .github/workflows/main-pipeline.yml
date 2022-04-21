@@ -1,0 +1,52 @@
+name: Main Pipeline
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish_release:
+    name: Publish Release 🚀
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
+      - name: Setup Node 💻
+        uses: actions/setup-node@v3.1.1
+        with:
+          node-version: '16'
+
+      - name: Cache Node Modules 💿
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-node-modules
+        with:
+          # npm cache files are stored in `~/.npm` on Linux/macOS
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+      - name: Install Dependencies 🚧
+        run: npm ci
+
+      - name: Semantic Release 🚀
+        run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      # - name: Deploy To Website 💎
+      #   uses: JamesIves/github-pages-deploy-action@v4.3.0
+      #   with:
+      #     branch: gh-pages
+      #     folder: build
+      #     token: ${{ secrets.GITHUB_TOKEN }}
+      #     clean: false
+      #     force: true
+      #     git-config-name: github-actions[bot]
+      #     git-config-email: github-actions[bot]@users.noreply.github.com
