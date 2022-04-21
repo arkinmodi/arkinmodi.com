@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/arkinmodi/arkinmodi.github.io//compare/v2.1.0...v2.1.1) (2022-04-21)
+
+
+### Bug Fixes
+
+* enable commitlint ([#15](https://github.com/arkinmodi/arkinmodi.github.io//issues/15)) ([541d5cc](https://github.com/arkinmodi/arkinmodi.github.io//commit/541d5cca97b4e3c057751485d538b46069486322)), closes [#5](https://github.com/arkinmodi/arkinmodi.github.io//issues/5)
+
 # [2.1.0](https://github.com/arkinmodi/arkinmodi.github.io//compare/v2.0.0...v2.1.0) (2022-04-21)
 
 
