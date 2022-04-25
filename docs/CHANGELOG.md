@@ -1,3 +1,10 @@
+## [2.1.7](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.6...v2.1.7) (2022-04-25)
+
+
+### Bug Fixes
+
+* bump @types/react-dom from 18.0.1 to 18.0.2 ([#18](https://github.com/arkinmodi/arkinmodi.github.io/issues/18)) ([3745fbc](https://github.com/arkinmodi/arkinmodi.github.io/commit/3745fbc3f43e73fea1df4bb116ecebfc7cb0a9bd))
+
 ## [2.1.6](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.5...v2.1.6) (2022-04-25)
 
 
