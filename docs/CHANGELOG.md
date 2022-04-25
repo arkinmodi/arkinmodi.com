@@ -1,3 +1,10 @@
+## [2.1.4](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.3...v2.1.4) (2022-04-25)
+
+
+### Bug Fixes
+
+* use admin token when auto approve dependabot ([#22](https://github.com/arkinmodi/arkinmodi.github.io/issues/22)) ([90f599a](https://github.com/arkinmodi/arkinmodi.github.io/commit/90f599a20f25a06e8ad453a08bda6a986c63af90))
+
 ## [2.1.3](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.2...v2.1.3) (2022-04-25)
 
 
