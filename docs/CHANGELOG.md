@@ -1,3 +1,10 @@
+## [2.1.3](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.2...v2.1.3) (2022-04-25)
+
+
+### Bug Fixes
+
+* update commit lint for dependabot ([#21](https://github.com/arkinmodi/arkinmodi.github.io/issues/21)) ([e16662d](https://github.com/arkinmodi/arkinmodi.github.io/commit/e16662d7ad809c7483d7551f64d4c7083abbd32b))
+
 ## [2.1.2](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.1...v2.1.2) (2022-04-21)
 
 
