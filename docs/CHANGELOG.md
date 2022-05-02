@@ -1,3 +1,10 @@
+## [2.1.14](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.13...v2.1.14) (2022-05-02)
+
+
+### Bug Fixes
+
+* bump @commitlint/config-conventional from 16.2.1 to 16.2.4 ([#29](https://github.com/arkinmodi/arkinmodi.github.io/issues/29)) ([82a2ecc](https://github.com/arkinmodi/arkinmodi.github.io/commit/82a2eccb9092834884e66c7c56bc53a6af56bd6a))
+
 ## [2.1.13](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.12...v2.1.13) (2022-05-02)
 
 
