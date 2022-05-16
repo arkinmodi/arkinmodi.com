@@ -1,3 +1,10 @@
+## [2.1.20](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.19...v2.1.20) (2022-05-16)
+
+
+### Bug Fixes
+
+* bump @commitlint/cli from 16.2.4 to 16.3.0 ([#35](https://github.com/arkinmodi/arkinmodi.github.io/issues/35)) ([43f6a9a](https://github.com/arkinmodi/arkinmodi.github.io/commit/43f6a9a6eaf4adaf2eef4a764c9dde147d379c1b))
+
 ## [2.1.19](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.18...v2.1.19) (2022-05-16)
 
 
