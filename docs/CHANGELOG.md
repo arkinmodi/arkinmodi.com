@@ -1,3 +1,10 @@
+## [2.1.21](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.20...v2.1.21) (2022-05-23)
+
+
+### Bug Fixes
+
+* bump actions/setup-node from 3.1.1 to 3.2.0 ([#37](https://github.com/arkinmodi/arkinmodi.github.io/issues/37)) ([49ea145](https://github.com/arkinmodi/arkinmodi.github.io/commit/49ea14582e188aacad2002b09560f43df581f118))
+
 ## [2.1.20](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.19...v2.1.20) (2022-05-16)
 
 
