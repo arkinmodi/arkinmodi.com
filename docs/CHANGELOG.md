@@ -1,3 +1,10 @@
+## [2.1.25](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.24...v2.1.25) (2022-05-30)
+
+
+### Bug Fixes
+
+* bump typescript from 4.6.4 to 4.7.2 ([#41](https://github.com/arkinmodi/arkinmodi.github.io/issues/41)) ([bd03112](https://github.com/arkinmodi/arkinmodi.github.io/commit/bd031128d263a7e725322b92d261d5c306542974))
+
 ## [2.1.24](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.23...v2.1.24) (2022-05-30)
 
 
