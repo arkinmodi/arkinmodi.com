@@ -1,3 +1,10 @@
+## [2.1.24](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.23...v2.1.24) (2022-05-30)
+
+
+### Bug Fixes
+
+* bump @testing-library/react from 13.2.0 to 13.3.0 ([#42](https://github.com/arkinmodi/arkinmodi.github.io/issues/42)) ([50dfdbb](https://github.com/arkinmodi/arkinmodi.github.io/commit/50dfdbb2f86170044a49b73cd967592eb04a345c))
+
 ## [2.1.23](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.22...v2.1.23) (2022-05-30)
 
 
