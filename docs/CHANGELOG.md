@@ -1,3 +1,10 @@
+## [2.1.27](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.26...v2.1.27) (2022-06-06)
+
+
+### Bug Fixes
+
+* bump @types/jest from 27.5.1 to 27.5.2 ([#44](https://github.com/arkinmodi/arkinmodi.github.io/issues/44)) ([00ddaba](https://github.com/arkinmodi/arkinmodi.github.io/commit/00ddaba4383a60c0ef3169e5b95d6fdd11edbe05))
+
 ## [2.1.26](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.25...v2.1.26) (2022-06-06)
 
 
