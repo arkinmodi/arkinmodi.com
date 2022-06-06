@@ -1,3 +1,10 @@
+## [2.1.29](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.28...v2.1.29) (2022-06-06)
+
+
+### Bug Fixes
+
+* bump @types/react from 18.0.9 to 18.0.12 ([#45](https://github.com/arkinmodi/arkinmodi.github.io/issues/45)) ([c96f4a9](https://github.com/arkinmodi/arkinmodi.github.io/commit/c96f4a97e350ecadb9e41ac1f769a2631a304ca4))
+
 ## [2.1.28](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.27...v2.1.28) (2022-06-06)
 
 
