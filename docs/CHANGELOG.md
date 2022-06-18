@@ -1,3 +1,10 @@
+## [2.1.31](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.30...v2.1.31) (2022-06-18)
+
+
+### Bug Fixes
+
+* bump semantic-release from 19.0.2 to 19.0.3 ([#49](https://github.com/arkinmodi/arkinmodi.github.io/issues/49)) ([3589807](https://github.com/arkinmodi/arkinmodi.github.io/commit/358980715c753202f2659fb238e052a98f599a5f))
+
 ## [2.1.30](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.29...v2.1.30) (2022-06-13)
 
 
