@@ -1,3 +1,10 @@
+## [2.1.32](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.31...v2.1.32) (2022-06-18)
+
+
+### Bug Fixes
+
+* bump @types/node from 16.11.38 to 16.11.41 ([#50](https://github.com/arkinmodi/arkinmodi.github.io/issues/50)) ([3734938](https://github.com/arkinmodi/arkinmodi.github.io/commit/3734938fac72d059fef0a361cf96edc6d04a16ac))
+
 ## [2.1.31](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.30...v2.1.31) (2022-06-18)
 
 
