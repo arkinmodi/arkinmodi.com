@@ -1,0 +1,16 @@
+---
+version: '3.8'
+
+services:
+
+  linter:
+    image: github/super-linter:slim-latest
+    volumes:
+      - ./:/tmp/lint
+    environment:
+      FILTER_REGEX_EXCLUDE: .*docs\/CHANGELOG\.md
+      IGNORE_GITIGNORED_FILES: true
+      JAVASCRIPT_DEFAULT_STYLE: prettier
+      RUN_LOCAL: true
+      VALIDATE_BASH: false
+      YAML_ERROR_ON_WARNING: true
