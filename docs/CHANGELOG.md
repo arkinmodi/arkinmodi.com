@@ -1,3 +1,129 @@
+## [2.1.32](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.31...v2.1.32) (2022-06-18)
+
+
+### Bug Fixes
+
+* bump @types/node from 16.11.38 to 16.11.41 ([#50](https://github.com/arkinmodi/arkinmodi.github.io/issues/50)) ([3734938](https://github.com/arkinmodi/arkinmodi.github.io/commit/3734938fac72d059fef0a361cf96edc6d04a16ac))
+
+## [2.1.31](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.30...v2.1.31) (2022-06-18)
+
+
+### Bug Fixes
+
+* bump semantic-release from 19.0.2 to 19.0.3 ([#49](https://github.com/arkinmodi/arkinmodi.github.io/issues/49)) ([3589807](https://github.com/arkinmodi/arkinmodi.github.io/commit/358980715c753202f2659fb238e052a98f599a5f))
+
+## [2.1.30](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.29...v2.1.30) (2022-06-13)
+
+
+### Bug Fixes
+
+* bump actions/setup-node from 3.2.0 to 3.3.0 ([#47](https://github.com/arkinmodi/arkinmodi.github.io/issues/47)) ([6d50096](https://github.com/arkinmodi/arkinmodi.github.io/commit/6d500960084dbe205df2cc30092f3e147f526bb9))
+
+## [2.1.29](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.28...v2.1.29) (2022-06-06)
+
+
+### Bug Fixes
+
+* bump @types/react from 18.0.9 to 18.0.12 ([#45](https://github.com/arkinmodi/arkinmodi.github.io/issues/45)) ([c96f4a9](https://github.com/arkinmodi/arkinmodi.github.io/commit/c96f4a97e350ecadb9e41ac1f769a2631a304ca4))
+
+## [2.1.28](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.27...v2.1.28) (2022-06-06)
+
+
+### Bug Fixes
+
+* bump typescript from 4.7.2 to 4.7.3 ([#46](https://github.com/arkinmodi/arkinmodi.github.io/issues/46)) ([c91d401](https://github.com/arkinmodi/arkinmodi.github.io/commit/c91d40166b5eba190c6ae071ff144f386750ba03))
+
+## [2.1.27](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.26...v2.1.27) (2022-06-06)
+
+
+### Bug Fixes
+
+* bump @types/jest from 27.5.1 to 27.5.2 ([#44](https://github.com/arkinmodi/arkinmodi.github.io/issues/44)) ([00ddaba](https://github.com/arkinmodi/arkinmodi.github.io/commit/00ddaba4383a60c0ef3169e5b95d6fdd11edbe05))
+
+## [2.1.26](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.25...v2.1.26) (2022-06-06)
+
+
+### Bug Fixes
+
+* bump @types/node from 16.11.36 to 16.11.38 ([#43](https://github.com/arkinmodi/arkinmodi.github.io/issues/43)) ([3402a4b](https://github.com/arkinmodi/arkinmodi.github.io/commit/3402a4becdc3292a4ae8daa3e12ce1ffa8bf25e6))
+
+## [2.1.25](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.24...v2.1.25) (2022-05-30)
+
+
+### Bug Fixes
+
+* bump typescript from 4.6.4 to 4.7.2 ([#41](https://github.com/arkinmodi/arkinmodi.github.io/issues/41)) ([bd03112](https://github.com/arkinmodi/arkinmodi.github.io/commit/bd031128d263a7e725322b92d261d5c306542974))
+
+## [2.1.24](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.23...v2.1.24) (2022-05-30)
+
+
+### Bug Fixes
+
+* bump @testing-library/react from 13.2.0 to 13.3.0 ([#42](https://github.com/arkinmodi/arkinmodi.github.io/issues/42)) ([50dfdbb](https://github.com/arkinmodi/arkinmodi.github.io/commit/50dfdbb2f86170044a49b73cd967592eb04a345c))
+
+## [2.1.23](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.22...v2.1.23) (2022-05-30)
+
+
+### Bug Fixes
+
+* bump @types/react-dom from 18.0.4 to 18.0.5 ([#40](https://github.com/arkinmodi/arkinmodi.github.io/issues/40)) ([c0bf390](https://github.com/arkinmodi/arkinmodi.github.io/commit/c0bf39030d2e68278c0b8b74306ad358d6d13929))
+
+## [2.1.22](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.21...v2.1.22) (2022-05-23)
+
+
+### Bug Fixes
+
+* bump @types/node from 16.11.35 to 16.11.36 ([#38](https://github.com/arkinmodi/arkinmodi.github.io/issues/38)) ([e553ec7](https://github.com/arkinmodi/arkinmodi.github.io/commit/e553ec704323b12b00279d95e141498ace130b3f))
+
+## [2.1.21](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.20...v2.1.21) (2022-05-23)
+
+
+### Bug Fixes
+
+* bump actions/setup-node from 3.1.1 to 3.2.0 ([#37](https://github.com/arkinmodi/arkinmodi.github.io/issues/37)) ([49ea145](https://github.com/arkinmodi/arkinmodi.github.io/commit/49ea14582e188aacad2002b09560f43df581f118))
+
+## [2.1.20](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.19...v2.1.20) (2022-05-16)
+
+
+### Bug Fixes
+
+* bump @commitlint/cli from 16.2.4 to 16.3.0 ([#35](https://github.com/arkinmodi/arkinmodi.github.io/issues/35)) ([43f6a9a](https://github.com/arkinmodi/arkinmodi.github.io/commit/43f6a9a6eaf4adaf2eef4a764c9dde147d379c1b))
+
+## [2.1.19](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.18...v2.1.19) (2022-05-16)
+
+
+### Bug Fixes
+
+* bump @types/jest from 27.4.1 to 27.5.1 ([#36](https://github.com/arkinmodi/arkinmodi.github.io/issues/36)) ([55be26f](https://github.com/arkinmodi/arkinmodi.github.io/commit/55be26fcf3870143e5bcd32935fb0cf242f75720))
+
+## [2.1.18](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.17...v2.1.18) (2022-05-16)
+
+
+### Bug Fixes
+
+* bump @testing-library/react from 13.1.1 to 13.2.0 ([#34](https://github.com/arkinmodi/arkinmodi.github.io/issues/34)) ([8e60041](https://github.com/arkinmodi/arkinmodi.github.io/commit/8e60041debcdf48180047855536408059770c0fb))
+
+## [2.1.17](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.16...v2.1.17) (2022-05-16)
+
+
+### Bug Fixes
+
+* bump @types/react-dom from 18.0.3 to 18.0.4 ([#33](https://github.com/arkinmodi/arkinmodi.github.io/issues/33)) ([9f5f91a](https://github.com/arkinmodi/arkinmodi.github.io/commit/9f5f91aae0d7e0345d7d57dfceca67fad731631e))
+
+## [2.1.16](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.15...v2.1.16) (2022-05-16)
+
+
+### Bug Fixes
+
+* bump @types/react from 18.0.8 to 18.0.9 ([#32](https://github.com/arkinmodi/arkinmodi.github.io/issues/32)) ([ff0314d](https://github.com/arkinmodi/arkinmodi.github.io/commit/ff0314d639e6200b070301449926b3d1268bdb23))
+
+## [2.1.15](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.14...v2.1.15) (2022-05-16)
+
+
+### Bug Fixes
+
+* bump @types/node from 16.11.33 to 16.11.35 ([#31](https://github.com/arkinmodi/arkinmodi.github.io/issues/31)) ([c0848d6](https://github.com/arkinmodi/arkinmodi.github.io/commit/c0848d6c66703ffa16703e8b7aefeb7145fb27a4))
+
 ## [2.1.14](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.13...v2.1.14) (2022-05-02)
 
 
