@@ -1,3 +1,11 @@
+## [2.1.33](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.32...v2.1.33) (2022-06-18)
+
+
+### Bug Fixes
+
+* bump github/super-linter from 4.9.2 to 4.9.4 ([#52](https://github.com/arkinmodi/arkinmodi.github.io/issues/52)) ([121fa7e](https://github.com/arkinmodi/arkinmodi.github.io/commit/121fa7eaabfa0643a16bd38cf7c70ad00bffc40a))
+* enable code base linting ([#17](https://github.com/arkinmodi/arkinmodi.github.io/issues/17)) ([1f2cd8f](https://github.com/arkinmodi/arkinmodi.github.io/commit/1f2cd8fa57ae7653f0a8c572b61a9011760d29c3))
+
 ## [2.1.32](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.31...v2.1.32) (2022-06-18)
 
 
