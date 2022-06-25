@@ -1,3 +1,10 @@
+## [2.1.34](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.33...v2.1.34) (2022-06-25)
+
+
+### Bug Fixes
+
+* lint error ([#54](https://github.com/arkinmodi/arkinmodi.github.io/issues/54)) ([dd5af74](https://github.com/arkinmodi/arkinmodi.github.io/commit/dd5af740e6448445aba3b295999771eed55dd0cd))
+
 ## [2.1.33](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.32...v2.1.33) (2022-06-18)
 
 
