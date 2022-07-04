@@ -1,3 +1,10 @@
+## [2.1.37](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.36...v2.1.37) (2022-07-04)
+
+
+### Bug Fixes
+
+* bump @astrojs/tailwind from 0.2.1 to 0.2.2 ([#59](https://github.com/arkinmodi/arkinmodi.github.io/issues/59)) ([188c4ec](https://github.com/arkinmodi/arkinmodi.github.io/commit/188c4ec298bfdff7e210587357066726e1e840ea))
+
 ## [2.1.36](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.35...v2.1.36) (2022-07-04)
 
 
