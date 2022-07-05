@@ -2,31 +2,56 @@
 import Project from "../components/Project.astro";
 
 ---
+
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Arkin Modi</title>
-  </head>
-  <body class="bg-slate-100 dark:bg-slate-800">
-    <!-- About Me -->
-    <div class="text-black dark:text-white">
-      <h1 class="font-bold">Arkin Modi</h1>
-      <h2>Software Engineering & Management Co-op Student @ McMaster University</h2>
-      <h2>Previously IBM Canada</h2>
-    </div>
 
-    <!-- Links -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Arkin Modi</title>
+</head>
+
+<body class="bg-slate-100 dark:bg-slate-800 h-screen w-screen flex flex-col justify-center items-center relative">
+  <!-- About Me -->
+  <div class="text-black dark:text-slate-100 text-center p-2">
+    <h1 class="font-bold text-5xl p-4">Arkin Modi</h1>
+    <h2>Backend Software Development Intern @ <a href="https://www.ibm.com/ca-en" target="_blank">IBM Canada</a></h2>
+    <h2 class="text-md">
+      Software Engineering & Management Co-op Student @ <a href="https://www.mcmaster.ca/" target="_blank">McMaster
+        University</a>
+    </h2>
+  </div>
+
+  <!-- Links -->
+  <div class="text-black dark:text-slate-100 pb-8">
+    <a href="https://www.linkedin.com/in/arkinmodi/" target="_blank">LinkedIn</a>
+    <a href="https://www.github.com/arkinmodi/" target="_blank">GitHub</a>
+    <a href="http://resume.arkinmodi.com/" target="_blank">Resume</a>
+    <a href="mailto:arkinmodi@gmail.com">Email</a>
+  </div>
+
+  <!-- Projects -->
+  <div
+    class="text-black dark:text-slate-100 grid md:grid-cols-3 sm:grid-cols-1 gap-4 auto-rows-fr justify-center items-strech flex-col">
     <div>
-      <a href="https://www.linkedin.com/in/arkinmodi/">LinkedIn</a>
-      <a href="https://www.github.com/arkinmodi/">GitHub</a>
-      <a href="http://resume.arkinmodi.com/">Resume</a>
-      <a href="mailto:arkinmodi@gmail.com">Email</a>
+      <Project title="🕹 Mastermind Board Game" repoUrl="https://github.com/arkinmodi/Mastermind-Board-Game"
+        description="A code breaking game" />
+    </div>
+    <div>
+      <Project title="🚀 MacTA Gateway" repoUrl="https://github.com/arkinmodi/MacTA-Gateway"
+        description="Frontend prototype of universal TA application portal for McMaster Students and Faculty"
+        demoUrl="https://macta-gateway.herokuapp.com/" />
+    </div>
+    <div>
+      <Project title="🤖 ScrumBot" repoUrl="https://github.com/arkinmodi/ScrumBot"
+        description="A Discord Bot for Managing the Scrum Agile Process" />
+    </div>
+    <div class="md:col-start-2 sm:col-start-1">
+      <Project title="🧬 Generate Image" repoUrl="https://github.com/arkinmodi/generateImage"
+        description="Generate an image, using a basic genetic algorithm, that is close to a given image" />
     </div>
 
-    <!-- Projects -->
-    <div class="text-black dark:text-white">
-      <Project title="🕹 Mastermind Board Game" url="https://github.com/arkinmodi/Mastermind-Board-Game" />
-    </div>
-  </body>
+  </div>
+</body>
+
 </html>
