@@ -1,10 +1,20 @@
 ---
 export interface Props {
   title: string;
-  url: string;
+  repoUrl: string;
+  description: string;
+  demoUrl?: string;
 }
 
-const { title, url } = Astro.props;
+const { title, repoUrl, demoUrl, description } = Astro.props as Props;
 ---
 
-<a href={url}><p>{title}</p></a>
+<div class="border-slate-800 dark:border-slate-100 border-2 rounded-md p-3 max-w-sm h-full">
+  <h1>{title}</h1>
+  <div>
+    <a href={repoUrl} target="_blank" class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">source code</a>
+    { demoUrl && <nobr> | </nobr><a href={demoUrl} target="_blank"
+      class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">demo</a> }
+  </div>
+  <p>{description}</p>
+</div>
