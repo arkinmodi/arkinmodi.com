@@ -40,7 +40,7 @@ const repositoriesMetadata = await getRepositoriesMetadata(repositories);
   <!-- Projects -->
   <div class="flex flex-wrap justify-center gap-4 w-[80vw]">
     {repositoriesMetadata.map((repo) =>
-    <div><Project title={repo.displayName} repoUrl={repo.url} demoUrl={repo.homepage} description={repo.description} /></div>)}
+    <Project title={repo.displayName} repoUrl={repo.url} demoUrl={repo.homepage} description={repo.description} />)}
   </div>
 
 </body>
