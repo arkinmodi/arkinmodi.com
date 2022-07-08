@@ -1,3 +1,24 @@
+## [2.1.37](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.36...v2.1.37) (2022-07-04)
+
+
+### Bug Fixes
+
+* bump @astrojs/tailwind from 0.2.1 to 0.2.2 ([#59](https://github.com/arkinmodi/arkinmodi.github.io/issues/59)) ([188c4ec](https://github.com/arkinmodi/arkinmodi.github.io/commit/188c4ec298bfdff7e210587357066726e1e840ea))
+
+## [2.1.36](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.35...v2.1.36) (2022-07-04)
+
+
+### Bug Fixes
+
+* bump astro from 1.0.0-beta.56 to 1.0.0-beta.63 ([#58](https://github.com/arkinmodi/arkinmodi.github.io/issues/58)) ([d72254d](https://github.com/arkinmodi/arkinmodi.github.io/commit/d72254df76f7bdab94e649e48c16067b8f8eea88))
+
+## [2.1.35](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.34...v2.1.35) (2022-07-04)
+
+
+### Bug Fixes
+
+* bump dependabot/fetch-metadata from 1.3.1 to 1.3.3 ([#57](https://github.com/arkinmodi/arkinmodi.github.io/issues/57)) ([8aa790b](https://github.com/arkinmodi/arkinmodi.github.io/commit/8aa790b31cd3c2c08ee4932fdc35ee98d08a231c))
+
 ## [2.1.34](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.33...v2.1.34) (2022-06-25)
 
 
