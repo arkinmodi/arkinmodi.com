@@ -14,25 +14,45 @@ import Project from "../components/Project.astro";
 <body class="bg-slate-100 dark:bg-slate-800 min-h-screen w-screen flex flex-col justify-center items-center relative">
   <!-- About Me -->
   <div class="text-black dark:text-slate-100 text-center p-2">
-    <h1 class="font-bold text-5xl p-4">Arkin Modi</h1>
+    <h1 class="font-bold text-6xl p-4">Arkin Modi</h1>
     <h2>Backend Software Development Intern @ <a href="https://www.ibm.com/ca-en" target="_blank">IBM Canada</a></h2>
     <h2 class="text-md">
-      Software Engineering & Management Co-op Student @ <a href="https://www.mcmaster.ca/" target="_blank">McMaster
-        University</a>
+      Software Engineering & Management Co-op Student @
+      <a href="https://www.mcmaster.ca/" target="_blank">McMaster University</a>
     </h2>
   </div>
 
   <!-- Links -->
-  <div class="text-black dark:text-slate-100 pb-8">
-    <a href="https://www.linkedin.com/in/arkinmodi/" target="_blank">LinkedIn</a>
-    <a href="https://www.github.com/arkinmodi/" target="_blank">GitHub</a>
-    <a href="http://resume.arkinmodi.com/" target="_blank">Resume</a>
-    <a href="mailto:arkinmodi@gmail.com">Email</a>
+  <div class="flex flex-wrap gap-4 p-4">
+    <a href="https://www.linkedin.com/in/arkinmodi/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+        alt="LinkedIn" />
+    </a>
+    <a href="https://www.github.com/arkinmodi/" target="_blank">
+      <picture>
+        <source srcset="https://img.shields.io/badge/GitHub-F1F9F5?style=for-the-badge&logo=github&logoColor=black"
+          media="(prefers-color-scheme: dark)">
+        <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white"
+          alt="GitHub" />
+      </picture>
+    </a>
+    <a href="http://resume.arkinmodi.com/" target="_blank">
+      <picture>
+        <source
+          srcset="https://img.shields.io/badge/resume-F1F9F5?style=for-the-badge&logo=MicrosoftWord&logoColor=black"
+          media="(prefers-color-scheme: dark)">
+        <img src="https://img.shields.io/badge/resume-000000?style=for-the-badge&logo=MicrosoftWord&logoColor=white"
+          alt="Resume" />
+      </picture>
+    </a>
+    <a href="mailto:arkinmodi@gmail.com" target="_blank">
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+
   </div>
 
   <!-- Projects -->
-  <div
-    class="text-black dark:text-slate-100 grid md:grid-cols-3 sm:grid-cols-1 gap-4 auto-rows-fr justify-center items-strech flex-col">
+  <div class="grid md:grid-cols-3 sm:grid-cols-1 gap-4 auto-rows-fr justify-center items-strech flex-col">
     <div>
       <Project title="🕹 Mastermind Board Game" repoUrl="https://github.com/arkinmodi/Mastermind-Board-Game"
         description="A code breaking game" />
