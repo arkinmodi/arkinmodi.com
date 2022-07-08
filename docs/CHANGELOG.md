@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.37...v2.2.0) (2022-07-08)
+
+
+### Features
+
+* initial portfolio ([#56](https://github.com/arkinmodi/arkinmodi.github.io/issues/56)) ([bf2bfe0](https://github.com/arkinmodi/arkinmodi.github.io/commit/bf2bfe01f46a7038ed622bee4aad45ec64a07dd7))
+
 ## [2.1.37](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.36...v2.1.37) (2022-07-04)
 
 
