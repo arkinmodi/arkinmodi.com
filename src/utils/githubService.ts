@@ -45,7 +45,9 @@ const getRepo: (
     return data;
   } else {
     return Promise.reject(
-      new Error(`Failed to find ${owner}/${repo}. Response Body: ${data}`)
+      new Error(
+        `Failed to get ${owner}/${repo}. Response Status: ${response.status} ${response.statusText}`
+      )
     );
   }
 };
