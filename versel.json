@@ -1,4 +1,9 @@
 {
+  "build": {
+    "env": {
+      "ENABLE_VC_BUILD": "1"
+    }
+  },
   "headers": [
     {
       "source": "/",
