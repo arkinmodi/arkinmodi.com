@@ -46,7 +46,9 @@ const getRepo: (
   } else {
     return Promise.reject(
       new Error(
-        `Failed to get ${owner}/${repo}. Response Status: ${response.status} ${response.statusText}`
+        `Failed to get ${owner}/${repo}. Status: ${response.status} ${
+          response.statusText
+        }. Body: ${JSON.stringify(data)}`
       )
     );
   }

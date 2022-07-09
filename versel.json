@@ -1,0 +1,19 @@
+{
+  "headers": [
+    {
+      "source": "/",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=86400, public"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/resume",
+      "destination": "http://resume.arkinmodi.com/"
+    }
+  ]
+}
