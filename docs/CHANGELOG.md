@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.2.0...v2.3.0) (2022-07-09)
+
+
+### Features
+
+* enable ssr ([#61](https://github.com/arkinmodi/arkinmodi.github.io/issues/61)) ([577ba43](https://github.com/arkinmodi/arkinmodi.github.io/commit/577ba436d8a97861b59fb34036eb8cb3d5f93fe5))
+
 # [2.2.0](https://github.com/arkinmodi/arkinmodi.github.io/compare/v2.1.37...v2.2.0) (2022-07-08)
 
 
