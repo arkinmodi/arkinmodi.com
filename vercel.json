@@ -1,0 +1,32 @@
+{
+  "build": {
+    "env": {
+      "ENABLE_VC_BUILD": "1"
+    }
+  },
+  "headers": [
+    {
+      "source": "/",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=86400, public"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/resume",
+      "destination": "http://resume.arkinmodi.com/"
+    },
+    {
+      "source": "/github",
+      "destination": "https://www.github.com/arkinmodi/"
+    },
+    {
+      "source": "/linkedin",
+      "destination": "https://www.linkedin.com/in/arkinmodi/"
+    }
+  ]
+}
