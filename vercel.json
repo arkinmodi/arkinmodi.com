@@ -19,6 +19,14 @@
     {
       "source": "/resume",
       "destination": "http://resume.arkinmodi.com/"
+    },
+    {
+      "source": "/github",
+      "destination": "https://www.github.com/arkinmodi/"
+    },
+    {
+      "source": "/linkedin",
+      "destination": "https://www.linkedin.com/in/arkinmodi/"
     }
   ]
 }
