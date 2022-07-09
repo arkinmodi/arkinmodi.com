@@ -1,55 +1,91 @@
 ---
 import LinkTree from "@components/LinkTree.astro";
 import Project from "@components/Project.astro";
-import { GetRepositoryMetadataInput, getRepositoriesMetadata } from "@utils/githubService";
+import {
+  GetRepositoryMetadataInput,
+  getRepositoriesMetadata,
+} from "@utils/githubService";
 
 const repositories: GetRepositoryMetadataInput[] = [
-  { owner: "arkinmodi", repo: "Mastermind-Board-Game", displayName: "🕹 Mastermind Board Game" },
-  { owner: "arkinmodi", repo: "MacTA-Gateway", displayName: "🚀 MacTA Gateway" },
+  {
+    owner: "arkinmodi",
+    repo: "Mastermind-Board-Game",
+    displayName: "🕹 Mastermind Board Game",
+  },
+  {
+    owner: "arkinmodi",
+    repo: "MacTA-Gateway",
+    displayName: "🚀 MacTA Gateway",
+  },
   { owner: "arkinmodi", repo: "ScrumBot", displayName: "🤖 ScrumBot" },
-  { owner: "arkinmodi", repo: "generateImage", displayName: "🧬 Generate Image" }
+  {
+    owner: "arkinmodi",
+    repo: "generateImage",
+    displayName: "🧬 Generate Image",
+  },
 ];
 
-const repositoriesMetadata = await getRepositoriesMetadata(repositories);
+// const repositoriesMetadata = await getRepositoriesMetadata(repositories);
+const repositoriesMetadata = [
+  {
+    displayName: "🚀 MacTA Gateway",
+    url: "https://github.com/arkinmodi/MacTA-Gateway",
+    homepage: "https://macta-gateway.herokuapp.com/",
+    description:
+      "Frontend prototype of universal TA application portal for McMaster Students and Faculty",
+  },
+];
 ---
 
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Arkin Modi</title>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>Arkin Modi</title>
-</head>
+  <body
+    class="bg-slate-100 dark:bg-slate-800 min-h-screen w-screen flex flex-col justify-center items-center relative"
+  >
+    <!-- About Me -->
+    <div class="text-black dark:text-slate-100 text-center p-2">
+      <h1 class="font-bold text-6xl p-4">Arkin Modi</h1>
+      <h2>
+        Backend Software Development Intern @ <a
+          href="https://www.ibm.com/ca-en"
+          target="_blank"
+          class="border-b-2 border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-200"
+        >
+          IBM Canada
+        </a>
+      </h2>
+      <h2 class="text-md">
+        Software Engineering & Management Co-op Student @
+        <a
+          href="https://www.mcmaster.ca/"
+          target="_blank"
+          class="border-b-2 border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-200"
+        >
+          McMaster University
+        </a>
+      </h2>
+    </div>
 
-<body class="bg-slate-100 dark:bg-slate-800 min-h-screen w-screen flex flex-col justify-center items-center relative">
-  <!-- About Me -->
-  <div class="text-black dark:text-slate-100 text-center p-2">
-    <h1 class="font-bold text-6xl p-4">Arkin Modi</h1>
-    <h2>Backend Software Development Intern @ <a href="https://www.ibm.com/ca-en" target="_blank"
-        class="border-b-2 border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-200">
-        IBM Canada
-      </a>
-    </h2>
-    <h2 class="text-md">
-      Software Engineering & Management Co-op Student @
-      <a href="https://www.mcmaster.ca/" target="_blank"
-        class="border-b-2 border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-200">
-        McMaster University
-      </a>
-    </h2>
-  </div>
+    <!-- Links -->
+    <div class="pt-4 pb-8">
+      <LinkTree />
+    </div>
 
-  <!-- Links -->
-  <div class="pt-4 pb-8">
-    <LinkTree />
-  </div>
-
-  <!-- Projects -->
-  <div class="flex flex-wrap justify-center gap-4 w-[80vw]">
-    {repositoriesMetadata.map((repo) =>
-    <Project title={repo.displayName} repoUrl={repo.url} demoUrl={repo.homepage} description={repo.description} />)}
-  </div>
-
-</body>
-
+    <!-- Projects -->
+    <div class="flex flex-wrap justify-center gap-4 w-[80vw]">
+      {repositoriesMetadata.map((repo) => (
+        <Project
+          title={repo.displayName}
+          repoUrl={repo.url}
+          demoUrl={repo.homepage}
+          description={repo.description}
+        />
+      ))}
+    </div>
+  </body>
 </html>
