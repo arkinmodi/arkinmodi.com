@@ -1,3 +1,11 @@
+## [2.3.1](https://github.com/arkinmodi/arkinmodi.com/compare/v2.3.0...v2.3.1) (2022-07-10)
+
+
+### Bug Fixes
+
+* linktree alignment on mobile ([#62](https://github.com/arkinmodi/arkinmodi.com/issues/62)) ([92161c5](https://github.com/arkinmodi/arkinmodi.com/commit/92161c50144e7509f5a5990b19368e5c81a7082c))
+* repo name ([#64](https://github.com/arkinmodi/arkinmodi.com/issues/64)) ([98b1df5](https://github.com/arkinmodi/arkinmodi.com/commit/98b1df525f82e8b12fbc9f984d8ad1658520aa62))
+
 # [2.3.0](https://github.com/arkinmodi/arkinmodi.com/compare/v2.2.0...v2.3.0) (2022-07-09)
 
 
