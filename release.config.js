@@ -1,5 +1,5 @@
 module.exports = {
-  repositoryUrl: "https://github.com/arkinmodi/arkinmodi.github.io",
+  repositoryUrl: "https://github.com/arkinmodi/arkinmodi.com",
   branches: ["main"],
   tagFormat: "v${version}",
   plugins: [

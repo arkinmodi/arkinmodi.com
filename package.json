@@ -1,8 +1,8 @@
 {
-  "name": "arkinmodi.github.io",
+  "name": "arkinmodi.com",
   "version": "2.3.0",
-  "homepage": "https://arkinmodi.github.io",
-  "repository": "https://github.com/arkinmodi/arkinmodi.github.io",
+  "homepage": "https://arkinmodi.com",
+  "repository": "https://github.com/arkinmodi/arkinmodi.com",
   "private": true,
   "scripts": {
     "dev": "astro dev",
