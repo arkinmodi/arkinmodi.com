@@ -1,3 +1,10 @@
+## [2.3.5](https://github.com/arkinmodi/arkinmodi.com/compare/v2.3.4...v2.3.5) (2022-07-11)
+
+
+### Bug Fixes
+
+* update readme ([#69](https://github.com/arkinmodi/arkinmodi.com/issues/69)) ([514f690](https://github.com/arkinmodi/arkinmodi.com/commit/514f690d3de68f41b26f1e6aac0345e3ab3c32bc))
+
 ## [2.3.4](https://github.com/arkinmodi/arkinmodi.com/compare/v2.3.3...v2.3.4) (2022-07-11)
 
 
