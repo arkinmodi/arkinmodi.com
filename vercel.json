@@ -4,6 +4,15 @@
       "ENABLE_VC_BUILD": "1"
     }
   },
+  "builds": [
+    {
+      "src": "./vercel",
+      "use": "@vercel/static"
+    }
+  ],
+  "github": {
+    "enabled": false
+  },
   "headers": [
     {
       "source": "/",
