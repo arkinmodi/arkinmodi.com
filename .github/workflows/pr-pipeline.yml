@@ -98,6 +98,8 @@ jobs:
 
       - name: Build Website 🏗
         run: npm run build
+        env:
+          ENABLE_VC_BUILD: 1
 
       - name: Deploy Website 💎
         uses: amondnet/vercel-action@v25
