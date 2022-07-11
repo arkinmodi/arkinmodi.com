@@ -1,3 +1,10 @@
+## [2.3.4](https://github.com/arkinmodi/arkinmodi.com/compare/v2.3.3...v2.3.4) (2022-07-11)
+
+
+### Bug Fixes
+
+* remove space in code link ([#67](https://github.com/arkinmodi/arkinmodi.com/issues/67)) ([712219c](https://github.com/arkinmodi/arkinmodi.com/commit/712219c161fad33a77a4d418cbad9fffbcba025d))
+
 ## [2.3.3](https://github.com/arkinmodi/arkinmodi.com/compare/v2.3.2...v2.3.3) (2022-07-11)
 
 
