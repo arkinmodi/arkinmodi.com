@@ -12,7 +12,7 @@
     "prettify": "prettier -w ./src --plugin=./node_modules/prettier-plugin-astro"
   },
   "devDependencies": {
-    "@astrojs/tailwind": "^0.2.1",
+    "@astrojs/tailwind": "^0.2.3",
     "@astrojs/vercel": "^0.2.5",
     "@commitlint/cli": "^16.3.0",
     "@commitlint/config-conventional": "^16.2.4",
