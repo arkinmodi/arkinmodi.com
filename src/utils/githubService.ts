@@ -13,6 +13,9 @@ export type RepositoryMetadata = {
   description: string;
 };
 
+type GetRepoResponseData =
+  Endpoints["GET /repos/{owner}/{repo}"]["response"]["data"];
+
 export const getRepositoriesMetadata: (
   repos: GetRepositoryMetadataInput[]
 ) => Promise<RepositoryMetadata[]> = async (repositories) => {
@@ -30,9 +33,6 @@ export const getRepositoriesMetadata: (
 
   return allRepoMetadata;
 };
-
-type GetRepoResponseData =
-  Endpoints["GET /repos/{owner}/{repo}"]["response"]["data"];
 
 const getRepo: (
   owner: string,
