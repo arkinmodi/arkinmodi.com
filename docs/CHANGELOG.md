@@ -1,3 +1,10 @@
+## [2.4.4](https://github.com/arkinmodi/arkinmodi.com/compare/v2.4.3...v2.4.4) (2022-07-18)
+
+
+### Bug Fixes
+
+* bump astro from 1.0.0-beta.64 to 1.0.0-beta.72 ([#74](https://github.com/arkinmodi/arkinmodi.com/issues/74)) ([4bd1956](https://github.com/arkinmodi/arkinmodi.com/commit/4bd19560f2e5f7328ea494448b955f5f3380aec7))
+
 ## [2.4.3](https://github.com/arkinmodi/arkinmodi.com/compare/v2.4.2...v2.4.3) (2022-07-18)
 
 
