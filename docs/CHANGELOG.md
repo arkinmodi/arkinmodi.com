@@ -1,3 +1,15 @@
+# [2.4.0](https://github.com/arkinmodi/arkinmodi.com/compare/v2.3.5...v2.4.0) (2022-07-18)
+
+
+### Bug Fixes
+
+* bump actions/setup-node from 3.3.0 to 3.4.1 ([#72](https://github.com/arkinmodi/arkinmodi.com/issues/72)) ([13da732](https://github.com/arkinmodi/arkinmodi.com/commit/13da732461fb4bd8702e51aa17ea48c0095fd641))
+
+
+### Features
+
+* custom 404 page ([#70](https://github.com/arkinmodi/arkinmodi.com/issues/70)) ([4eaf921](https://github.com/arkinmodi/arkinmodi.com/commit/4eaf921c2b073f65a4378f3b7a69d281cf17badb))
+
 ## [2.3.5](https://github.com/arkinmodi/arkinmodi.com/compare/v2.3.4...v2.3.5) (2022-07-11)
 
 
