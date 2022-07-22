@@ -1,3 +1,10 @@
+# [2.5.0](https://github.com/arkinmodi/arkinmodi.com/compare/v2.4.4...v2.5.0) (2022-07-22)
+
+
+### Features
+
+* add whos-that-pokemon project ([#77](https://github.com/arkinmodi/arkinmodi.com/issues/77)) ([6b6877a](https://github.com/arkinmodi/arkinmodi.com/commit/6b6877a80ab84ec2955e29061ade62a334ce9feb))
+
 ## [2.4.4](https://github.com/arkinmodi/arkinmodi.com/compare/v2.4.3...v2.4.4) (2022-07-18)
 
 
