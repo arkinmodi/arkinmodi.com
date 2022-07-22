@@ -1,3 +1,43 @@
+## [2.4.4](https://github.com/arkinmodi/arkinmodi.com/compare/v2.4.3...v2.4.4) (2022-07-18)
+
+
+### Bug Fixes
+
+* bump astro from 1.0.0-beta.64 to 1.0.0-beta.72 ([#74](https://github.com/arkinmodi/arkinmodi.com/issues/74)) ([4bd1956](https://github.com/arkinmodi/arkinmodi.com/commit/4bd19560f2e5f7328ea494448b955f5f3380aec7))
+
+## [2.4.3](https://github.com/arkinmodi/arkinmodi.com/compare/v2.4.2...v2.4.3) (2022-07-18)
+
+
+### Bug Fixes
+
+* bump @astrojs/tailwind from 0.2.3 to 0.2.4 ([#73](https://github.com/arkinmodi/arkinmodi.com/issues/73)) ([ed59c76](https://github.com/arkinmodi/arkinmodi.com/commit/ed59c76ba793a84e07bcc5eebb8e2a9d9ff0235f))
+
+## [2.4.2](https://github.com/arkinmodi/arkinmodi.com/compare/v2.4.1...v2.4.2) (2022-07-18)
+
+
+### Bug Fixes
+
+* bump @astrojs/vercel from 0.2.5 to 0.2.6 ([#76](https://github.com/arkinmodi/arkinmodi.com/issues/76)) ([674d22b](https://github.com/arkinmodi/arkinmodi.com/commit/674d22b0fd05c4ce792286d25e5d7dda2cb832cf))
+
+## [2.4.1](https://github.com/arkinmodi/arkinmodi.com/compare/v2.4.0...v2.4.1) (2022-07-18)
+
+
+### Bug Fixes
+
+* bump @octokit/types from 6.39.0 to 6.40.0 ([#75](https://github.com/arkinmodi/arkinmodi.com/issues/75)) ([f619735](https://github.com/arkinmodi/arkinmodi.com/commit/f619735b45cdcc2ccb95e0cb5d793dc1ccbd8b76))
+
+# [2.4.0](https://github.com/arkinmodi/arkinmodi.com/compare/v2.3.5...v2.4.0) (2022-07-18)
+
+
+### Bug Fixes
+
+* bump actions/setup-node from 3.3.0 to 3.4.1 ([#72](https://github.com/arkinmodi/arkinmodi.com/issues/72)) ([13da732](https://github.com/arkinmodi/arkinmodi.com/commit/13da732461fb4bd8702e51aa17ea48c0095fd641))
+
+
+### Features
+
+* custom 404 page ([#70](https://github.com/arkinmodi/arkinmodi.com/issues/70)) ([4eaf921](https://github.com/arkinmodi/arkinmodi.com/commit/4eaf921c2b073f65a4378f3b7a69d281cf17badb))
+
 ## [2.3.5](https://github.com/arkinmodi/arkinmodi.com/compare/v2.3.4...v2.3.5) (2022-07-11)
 
 
