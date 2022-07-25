@@ -1,3 +1,10 @@
+## [2.5.2](https://github.com/arkinmodi/arkinmodi.com/compare/v2.5.1...v2.5.2) (2022-07-25)
+
+
+### Bug Fixes
+
+* bump prettier-plugin-astro from 0.1.1 to 0.1.2 ([#79](https://github.com/arkinmodi/arkinmodi.com/issues/79)) ([367ee4b](https://github.com/arkinmodi/arkinmodi.com/commit/367ee4bfef30041a6c6bec24359d1c520b3b0fd8))
+
 ## [2.5.1](https://github.com/arkinmodi/arkinmodi.com/compare/v2.5.0...v2.5.1) (2022-07-25)
 
 
