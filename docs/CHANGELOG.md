@@ -1,3 +1,11 @@
+## [2.5.3](https://github.com/arkinmodi/arkinmodi.com/compare/v2.5.2...v2.5.3) (2022-07-26)
+
+
+### Bug Fixes
+
+* bump github/super-linter from 4.9.4 to 4.9.5 ([#81](https://github.com/arkinmodi/arkinmodi.com/issues/81)) ([49bf017](https://github.com/arkinmodi/arkinmodi.com/commit/49bf0178d44561c9e4b1c94bf19d6b9109e85253))
+* change dependabot to monthly ([#80](https://github.com/arkinmodi/arkinmodi.com/issues/80)) ([6f312a6](https://github.com/arkinmodi/arkinmodi.com/commit/6f312a64858a85e12f2bf10b7b4a2994b6b9016d))
+
 ## [2.5.2](https://github.com/arkinmodi/arkinmodi.com/compare/v2.5.1...v2.5.2) (2022-07-25)
 
 
