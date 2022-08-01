@@ -1,3 +1,10 @@
+## [2.5.8](https://github.com/arkinmodi/arkinmodi.com/compare/v2.5.7...v2.5.8) (2022-08-01)
+
+
+### Bug Fixes
+
+* bump @octokit/types from 6.40.0 to 6.41.0 ([#86](https://github.com/arkinmodi/arkinmodi.com/issues/86)) ([160d1d8](https://github.com/arkinmodi/arkinmodi.com/commit/160d1d8443da8ee68c30fa0c9dcb2a74d98c513d))
+
 ## [2.5.7](https://github.com/arkinmodi/arkinmodi.com/compare/v2.5.6...v2.5.7) (2022-08-01)
 
 
