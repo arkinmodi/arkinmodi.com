@@ -1,3 +1,10 @@
+## [2.5.5](https://github.com/arkinmodi/arkinmodi.com/compare/v2.5.4...v2.5.5) (2022-08-01)
+
+
+### Bug Fixes
+
+* add ssr output config ([#84](https://github.com/arkinmodi/arkinmodi.com/issues/84)) ([f2c1f47](https://github.com/arkinmodi/arkinmodi.com/commit/f2c1f47d7ef9d9a2da4f9ab88ab72385f189d0e5))
+
 ## [2.5.4](https://github.com/arkinmodi/arkinmodi.com/compare/v2.5.3...v2.5.4) (2022-08-01)
 
 
