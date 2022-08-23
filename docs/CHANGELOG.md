@@ -1,3 +1,15 @@
+# [2.6.0](https://github.com/arkinmodi/arkinmodi.com/compare/v2.5.8...v2.6.0) (2022-08-23)
+
+
+### Bug Fixes
+
+* bump github/super-linter from 4.9.5 to 4.9.6 ([#89](https://github.com/arkinmodi/arkinmodi.com/issues/89)) ([f57467c](https://github.com/arkinmodi/arkinmodi.com/commit/f57467caa1beeca4a33cbf7f14a43f2641e8da60))
+
+
+### Features
+
+* add prettier ([#88](https://github.com/arkinmodi/arkinmodi.com/issues/88)) ([f2dab18](https://github.com/arkinmodi/arkinmodi.com/commit/f2dab18158d6d670787be74c537e606ce51f9fcd))
+
 ## [2.5.8](https://github.com/arkinmodi/arkinmodi.com/compare/v2.5.7...v2.5.8) (2022-08-01)
 
 
