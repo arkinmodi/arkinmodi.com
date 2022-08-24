@@ -17,7 +17,7 @@ type GetRepoResponseData =
   Endpoints["GET /repos/{owner}/{repo}"]["response"]["data"];
 
 export const getRepositoriesMetadata: (
-  repos: GetRepositoryMetadataInput[]
+  repos: GetRepositoryMetadataInput[],
 ) => Promise<RepositoryMetadata[]> = async (repositories) => {
   const allRepoMetadata: RepositoryMetadata[] = [];
 
@@ -36,7 +36,7 @@ export const getRepositoriesMetadata: (
 
 const getRepo: (
   owner: string,
-  repo: string
+  repo: string,
 ) => Promise<GetRepoResponseData> = async (owner, repo) => {
   const response = await fetch(`https://api.github.com/repos/${owner}/${repo}`);
   const data: GetRepoResponseData = await response.json();
@@ -48,8 +48,8 @@ const getRepo: (
       new Error(
         `Failed to get ${owner}/${repo}. Status: ${response.status} ${
           response.statusText
-        }. Body: ${JSON.stringify(data)}`
-      )
+        }. Body: ${JSON.stringify(data)}`,
+      ),
     );
   }
 };

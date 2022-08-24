@@ -1,3 +1,22 @@
+## [2.6.1](https://github.com/arkinmodi/arkinmodi.com/compare/v2.6.0...v2.6.1) (2022-08-23)
+
+
+### Bug Fixes
+
+* bump prettier-plugin-astro from 0.1.3 to 0.5.3 ([#90](https://github.com/arkinmodi/arkinmodi.com/issues/90)) ([0bf8ac2](https://github.com/arkinmodi/arkinmodi.com/commit/0bf8ac2c19d4d5d071ceda60f63ca3b04801de52))
+
+# [2.6.0](https://github.com/arkinmodi/arkinmodi.com/compare/v2.5.8...v2.6.0) (2022-08-23)
+
+
+### Bug Fixes
+
+* bump github/super-linter from 4.9.5 to 4.9.6 ([#89](https://github.com/arkinmodi/arkinmodi.com/issues/89)) ([f57467c](https://github.com/arkinmodi/arkinmodi.com/commit/f57467caa1beeca4a33cbf7f14a43f2641e8da60))
+
+
+### Features
+
+* add prettier ([#88](https://github.com/arkinmodi/arkinmodi.com/issues/88)) ([f2dab18](https://github.com/arkinmodi/arkinmodi.com/commit/f2dab18158d6d670787be74c537e606ce51f9fcd))
+
 ## [2.5.8](https://github.com/arkinmodi/arkinmodi.com/compare/v2.5.7...v2.5.8) (2022-08-01)
 
 
