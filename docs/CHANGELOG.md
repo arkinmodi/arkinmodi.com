@@ -1,3 +1,10 @@
+# [2.7.0](https://github.com/arkinmodi/arkinmodi.com/compare/v2.6.1...v2.7.0) (2022-08-26)
+
+
+### Features
+
+* leaving ibm ([#87](https://github.com/arkinmodi/arkinmodi.com/issues/87)) ([fa8e00d](https://github.com/arkinmodi/arkinmodi.com/commit/fa8e00dec4aba5d0cf7eb0ad53c8d97a00d61879))
+
 ## [2.6.1](https://github.com/arkinmodi/arkinmodi.com/compare/v2.6.0...v2.6.1) (2022-08-23)
 
 
