@@ -21,18 +21,20 @@ const { title, repoUrl, demoUrl, description } = Astro.props as Props;
     >
       code
     </a>
-    {demoUrl && (
-      <>
-        <nobr> | </nobr>
-        <a
-          href={demoUrl}
-          target="_blank"
-          class="inline-block border-b-2 border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-200"
-        >
-          demo
-        </a>
-      </>
-    )}
+    {
+      demoUrl && (
+        <>
+          <nobr> | </nobr>
+          <a
+            href={demoUrl}
+            target="_blank"
+            class="inline-block border-b-2 border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-200"
+          >
+            demo
+          </a>
+        </>
+      )
+    }
   </div>
   <p>{description}</p>
 </div>
