@@ -1,3 +1,10 @@
+## [2.7.1](https://github.com/arkinmodi/arkinmodi.com/compare/v2.7.0...v2.7.1) (2022-08-28)
+
+
+### Bug Fixes
+
+* add head metadata ([#91](https://github.com/arkinmodi/arkinmodi.com/issues/91)) ([cf10e5c](https://github.com/arkinmodi/arkinmodi.com/commit/cf10e5cc35c60bc452db49e478efaa1dbbcda221))
+
 # [2.7.0](https://github.com/arkinmodi/arkinmodi.com/compare/v2.6.1...v2.7.0) (2022-08-26)
 
 
