@@ -6,6 +6,9 @@ import {
   getRepositoriesMetadata,
 } from "@utils/githubService";
 
+const title = "Arkin Modi";
+const description = "A website about me!";
+
 const repositories: GetRepositoryMetadataInput[] = [
   {
     owner: "arkinmodi",
@@ -35,9 +38,20 @@ const repositoriesMetadata = await getRepositoriesMetadata(repositories);
 
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Arkin Modi</title>
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: light)"
+      content="#f1f5f9"
+    />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: dark)"
+      content="#1e293b"
+    />
   </head>
 
   <body
@@ -74,14 +88,16 @@ const repositoriesMetadata = await getRepositoriesMetadata(repositories);
 
     <!-- Projects -->
     <div class="flex flex-wrap justify-center gap-4 w-[80vw]">
-      {repositoriesMetadata.map((repo) => (
-        <Project
-          title={repo.displayName}
-          repoUrl={repo.url}
-          demoUrl={repo.homepage}
-          description={repo.description}
-        />
-      ))}
+      {
+        repositoriesMetadata.map((repo) => (
+          <Project
+            title={repo.displayName}
+            repoUrl={repo.url}
+            demoUrl={repo.homepage}
+            description={repo.description}
+          />
+        ))
+      }
     </div>
   </body>
 </html>
