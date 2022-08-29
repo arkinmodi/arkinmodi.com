@@ -1,3 +1,10 @@
+## [2.7.2](https://github.com/arkinmodi/arkinmodi.com/compare/v2.7.1...v2.7.2) (2022-08-29)
+
+
+### Bug Fixes
+
+* bump astro from 1.0.8 to 1.1.1 ([#92](https://github.com/arkinmodi/arkinmodi.com/issues/92)) ([175322f](https://github.com/arkinmodi/arkinmodi.com/commit/175322f8a3f37d8d17b4cdd032dfae447463e018))
+
 ## [2.7.1](https://github.com/arkinmodi/arkinmodi.com/compare/v2.7.0...v2.7.1) (2022-08-28)
 
 
