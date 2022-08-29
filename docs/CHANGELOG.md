@@ -1,3 +1,10 @@
+# [2.8.0](https://github.com/arkinmodi/arkinmodi.com/compare/v2.7.2...v2.8.0) (2022-08-29)
+
+
+### Features
+
+* add stock dashboard ([#93](https://github.com/arkinmodi/arkinmodi.com/issues/93)) ([b4112d7](https://github.com/arkinmodi/arkinmodi.com/commit/b4112d7bc73bd7b4c0b7f77bd40f61291773808b))
+
 ## [2.7.2](https://github.com/arkinmodi/arkinmodi.com/compare/v2.7.1...v2.7.2) (2022-08-29)
 
 
