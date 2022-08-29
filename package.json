@@ -19,7 +19,7 @@
     "@octokit/types": "^6.41.0",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
-    "astro": "^1.0.8",
+    "astro": "^1.1.1",
     "husky": "^7.0.4",
     "prettier": "^2.7.1",
     "prettier-plugin-astro": "^0.5.3",
