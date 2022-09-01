@@ -1,3 +1,10 @@
+# [2.9.0](https://github.com/arkinmodi/arkinmodi.com/compare/v2.8.0...v2.9.0) (2022-09-01)
+
+
+### Features
+
+* update links to use simple icons with daisyui tooltips ([#95](https://github.com/arkinmodi/arkinmodi.com/issues/95)) ([880cf63](https://github.com/arkinmodi/arkinmodi.com/commit/880cf63bd8c563ededbb007da29f0722949b5c09))
+
 # [2.8.0](https://github.com/arkinmodi/arkinmodi.com/compare/v2.7.2...v2.8.0) (2022-08-29)
 
 
