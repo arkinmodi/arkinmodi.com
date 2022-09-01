@@ -1,41 +1,54 @@
 ---
+import * as icons from "simple-icons/icons";
 ---
 
 <div class="flex flex-wrap gap-4 justify-center w-[80vw]">
-  <a href="https://www.linkedin.com/in/arkinmodi/" target="_blank">
-    <img
-      src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-      alt="LinkedIn"
-    />
+  <a
+    href="https://www.linkedin.com/in/arkinmodi/"
+    target="_blank"
+    class="tooltip tooltip-bottom w-8"
+    data-tip="Connect with me on LinkedIn!"
+  >
+    <div
+      class="dark:fill-slate-100 fill-slate-800"
+      set:html={icons.siLinkedin.svg}
+    >
+    </div>
   </a>
-  <a href="https://www.github.com/arkinmodi/" target="_blank">
-    <picture>
-      <source
-        srcset="https://img.shields.io/badge/GitHub-F1F9F5?style=for-the-badge&logo=github&logoColor=black"
-        media="(prefers-color-scheme: dark)"
-      />
-      <img
-        src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white"
-        alt="GitHub"
-      />
-    </picture>
+  <a
+    href="https://www.github.com/arkinmodi/"
+    target="_blank"
+    class="tooltip tooltip-bottom w-8"
+    data-tip="Build with me on GitHub!"
+  >
+    <div
+      class="dark:fill-slate-100 fill-slate-800"
+      set:html={icons.siGithub.svg}
+    >
+    </div>
   </a>
-  <a href="http://resume.arkinmodi.com/" target="_blank">
-    <picture>
-      <source
-        srcset="https://img.shields.io/badge/resume-F1F9F5?style=for-the-badge&logo=MicrosoftWord&logoColor=black"
-        media="(prefers-color-scheme: dark)"
-      />
-      <img
-        src="https://img.shields.io/badge/resume-000000?style=for-the-badge&logo=MicrosoftWord&logoColor=white"
-        alt="Resume"
-      />
-    </picture>
+  <a
+    href="http://resume.arkinmodi.com/"
+    target="_blank"
+    class="tooltip tooltip-bottom w-8"
+    data-tip="Checkout my Resume!"
+  >
+    <div
+      class="dark:fill-slate-100 fill-slate-800"
+      set:html={icons.siMicrosoftword.svg}
+    >
+    </div>
   </a>
-  <a href="mailto:arkinmodi@gmail.com" target="_blank">
-    <img
-      src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"
-      alt="Email"
-    />
+  <a
+    href="mailto:arkinmodi@gmail.com"
+    target="_blank"
+    class="tooltip tooltip-bottom w-8"
+    data-tip="Email me!"
+  >
+    <div
+      class="dark:fill-slate-100 fill-slate-800"
+      set:html={icons.siGmail.svg}
+    >
+    </div>
   </a>
 </div>
