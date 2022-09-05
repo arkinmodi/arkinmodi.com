@@ -1,3 +1,11 @@
+## [2.9.2](https://github.com/arkinmodi/arkinmodi.com/compare/v2.9.1...v2.9.2) (2022-09-05)
+
+
+### Bug Fixes
+
+* bump daisyui from 2.24.0 to 2.25.0 ([#98](https://github.com/arkinmodi/arkinmodi.com/issues/98)) ([a2fd831](https://github.com/arkinmodi/arkinmodi.com/commit/a2fd8315e9b4b3afb334bccc1051933ab49cd129))
+* bump simple-icons from 7.9.0 to 7.10.0 ([#97](https://github.com/arkinmodi/arkinmodi.com/issues/97)) ([c46341e](https://github.com/arkinmodi/arkinmodi.com/commit/c46341ee678b772e8f79ffa4adf2bfd53f248974))
+
 ## [2.9.1](https://github.com/arkinmodi/arkinmodi.com/compare/v2.9.0...v2.9.1) (2022-09-05)
 
 
