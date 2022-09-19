@@ -1,3 +1,10 @@
+## [2.9.4](https://github.com/arkinmodi/arkinmodi.com/compare/v2.9.3...v2.9.4) (2022-09-19)
+
+
+### Bug Fixes
+
+* bump daisyui from 2.25.0 to 2.28.0 ([#101](https://github.com/arkinmodi/arkinmodi.com/issues/101)) ([d161b10](https://github.com/arkinmodi/arkinmodi.com/commit/d161b106ddfc759c556c3cfd1e64c2229f8988c4))
+
 ## [2.9.3](https://github.com/arkinmodi/arkinmodi.com/compare/v2.9.2...v2.9.3) (2022-09-12)
 
 
