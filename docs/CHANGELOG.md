@@ -1,3 +1,10 @@
+## [2.9.7](https://github.com/arkinmodi/arkinmodi.com/compare/v2.9.6...v2.9.7) (2022-10-03)
+
+
+### Bug Fixes
+
+* bump simple-icons from 7.10.0 to 7.14.0 ([#106](https://github.com/arkinmodi/arkinmodi.com/issues/106)) ([9c1f4a7](https://github.com/arkinmodi/arkinmodi.com/commit/9c1f4a7f5bdbba73e0b088a5407811b27040040c))
+
 ## [2.9.6](https://github.com/arkinmodi/arkinmodi.com/compare/v2.9.5...v2.9.6) (2022-10-03)
 
 
