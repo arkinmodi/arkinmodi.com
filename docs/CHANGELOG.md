@@ -1,3 +1,10 @@
+## [2.9.10](https://github.com/arkinmodi/arkinmodi.com/compare/v2.9.9...v2.9.10) (2022-10-10)
+
+
+### Bug Fixes
+
+* bump github/super-linter from 4.9.6 to 4.9.7 ([#110](https://github.com/arkinmodi/arkinmodi.com/issues/110)) ([aeb4955](https://github.com/arkinmodi/arkinmodi.com/commit/aeb49555dee8f90eeeb60e51a6c4a7b2bbdd0364))
+
 ## [2.9.9](https://github.com/arkinmodi/arkinmodi.com/compare/v2.9.8...v2.9.9) (2022-10-03)
 
 
