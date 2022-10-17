@@ -1,3 +1,10 @@
+# [2.10.0](https://github.com/arkinmodi/arkinmodi.com/compare/v2.9.16...v2.10.0) (2022-10-17)
+
+
+### Features
+
+* create license ([#116](https://github.com/arkinmodi/arkinmodi.com/issues/116)) ([9a1e558](https://github.com/arkinmodi/arkinmodi.com/commit/9a1e558d68dcc764d41f95cf37e4fed340a0e1a0))
+
 ## [2.9.16](https://github.com/arkinmodi/arkinmodi.com/compare/v2.9.15...v2.9.16) (2022-10-17)
 
 
