@@ -20,7 +20,7 @@
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
     "astro": "^1.6.1",
-    "daisyui": "^2.41.0",
+    "daisyui": "^2.42.1",
     "husky": "^7.0.4",
     "prettier": "^2.7.1",
     "prettier-plugin-astro": "^0.7.0",
