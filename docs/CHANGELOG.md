@@ -1,3 +1,10 @@
+## [2.10.9](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.8...v2.10.9) (2022-12-05)
+
+
+### Bug Fixes
+
+* bump prettier-plugin-tailwindcss from 0.1.13 to 0.2.0 ([#125](https://github.com/arkinmodi/arkinmodi.com/issues/125)) ([f95076b](https://github.com/arkinmodi/arkinmodi.com/commit/f95076b0f3e8218a442177b630566b5eb1c93b98))
+
 ## [2.10.8](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.7...v2.10.8) (2022-11-28)
 
 
