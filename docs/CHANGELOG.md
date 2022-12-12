@@ -1,3 +1,10 @@
+## [2.10.10](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.9...v2.10.10) (2022-12-12)
+
+
+### Bug Fixes
+
+* bump @semantic-release/changelog from 6.0.1 to 6.0.2 ([#126](https://github.com/arkinmodi/arkinmodi.com/issues/126)) ([d3e3a66](https://github.com/arkinmodi/arkinmodi.com/commit/d3e3a66b7ec6aa54d65b98f80237d0e3556fcb6a))
+
 ## [2.10.9](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.8...v2.10.9) (2022-12-05)
 
 
