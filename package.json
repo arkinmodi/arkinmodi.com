@@ -26,6 +26,6 @@
     "prettier-plugin-astro": "^0.7.0",
     "prettier-plugin-tailwindcss": "^0.2.0",
     "semantic-release": "^19.0.5",
-    "simple-icons": "^7.19.0"
+    "simple-icons": "^7.21.0"
   }
 }
