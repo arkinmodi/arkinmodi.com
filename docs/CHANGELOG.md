@@ -1,3 +1,10 @@
+## [2.10.14](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.13...v2.10.14) (2023-01-09)
+
+
+### Bug Fixes
+
+* bump actions/setup-node from 3.5.1 to 3.6.0 ([#131](https://github.com/arkinmodi/arkinmodi.com/issues/131)) ([933365a](https://github.com/arkinmodi/arkinmodi.com/commit/933365a1260c8467356471e90acb94674dc235d3))
+
 ## [2.10.13](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.12...v2.10.13) (2023-01-02)
 
 
