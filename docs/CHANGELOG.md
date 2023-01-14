@@ -1,3 +1,10 @@
+## [2.10.16](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.15...v2.10.16) (2023-01-14)
+
+
+### Bug Fixes
+
+* update dependences ([#132](https://github.com/arkinmodi/arkinmodi.com/issues/132)) ([389d18d](https://github.com/arkinmodi/arkinmodi.com/commit/389d18dc8e58f9f6e82b2f79ad28eb0c58a2475f))
+
 ## [2.10.15](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.14...v2.10.15) (2023-01-09)
 
 
