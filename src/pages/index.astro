@@ -55,11 +55,11 @@ const repositoriesMetadata = await getRepositoriesMetadata(repositories);
   </head>
 
   <body
-    class="bg-slate-100 dark:bg-slate-800 min-h-screen w-screen flex flex-col justify-center items-center relative"
+    class="relative flex min-h-screen w-screen flex-col items-center justify-center bg-slate-100 dark:bg-slate-800"
   >
     <!-- About Me -->
-    <div class="text-black dark:text-slate-100 text-center p-2">
-      <h1 class="font-bold text-6xl p-4">Arkin Modi</h1>
+    <div class="p-2 text-center text-black dark:text-slate-100">
+      <h1 class="p-4 text-6xl font-bold">Arkin Modi</h1>
       <h2 class="text-md">
         Software Engineering & Management Co-op Student @
         <a
@@ -87,7 +87,7 @@ const repositoriesMetadata = await getRepositoriesMetadata(repositories);
     </div>
 
     <!-- Projects -->
-    <div class="flex flex-wrap justify-center gap-4 w-[80vw]">
+    <div class="flex w-[80vw] flex-wrap justify-center gap-4">
       {
         repositoriesMetadata.map((repo) => (
           <Project
