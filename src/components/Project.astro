@@ -10,14 +10,14 @@ const { title, repoUrl, demoUrl, description } = Astro.props as Props;
 ---
 
 <div
-  class="text-black dark:text-slate-100 border-slate-800 dark:border-slate-100 border-2 rounded-md p-3 w-96 min-h-36"
+  class="min-h-36 w-96 rounded-md border-2 border-slate-800 p-3 text-black dark:border-slate-100 dark:text-slate-100"
 >
   <h1>{title}</h1>
   <div class="pt-1 pb-2">
     <a
       href={repoUrl}
       target="_blank"
-      class="border-b-2 border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-200 inline-block"
+      class="inline-block border-b-2 border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-200"
     >
       code
     </a>
