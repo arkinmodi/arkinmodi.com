@@ -1,3 +1,10 @@
+## [2.10.20](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.19...v2.10.20) (2023-01-30)
+
+
+### Bug Fixes
+
+* bump dependabot/fetch-metadata from 1.3.5 to 1.3.6 ([#137](https://github.com/arkinmodi/arkinmodi.com/issues/137)) ([54507d7](https://github.com/arkinmodi/arkinmodi.com/commit/54507d7c69018846b250a65839d756725f201907))
+
 ## [2.10.19](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.18...v2.10.19) (2023-01-23)
 
 
