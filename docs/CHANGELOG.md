@@ -1,3 +1,10 @@
+## [2.10.24](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.23...v2.10.24) (2023-02-17)
+
+
+### Bug Fixes
+
+* deps ([#143](https://github.com/arkinmodi/arkinmodi.com/issues/143)) ([23eaaee](https://github.com/arkinmodi/arkinmodi.com/commit/23eaaee420e962790721c28128d3d3042f2efd7a))
+
 ## [2.10.23](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.22...v2.10.23) (2023-02-13)
 
 
