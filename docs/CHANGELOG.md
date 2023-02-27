@@ -1,3 +1,10 @@
+## [2.10.26](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.25...v2.10.26) (2023-02-27)
+
+
+### Bug Fixes
+
+* bump @commitlint/config-conventional from 17.4.3 to 17.4.4 ([#145](https://github.com/arkinmodi/arkinmodi.com/issues/145)) ([5118e99](https://github.com/arkinmodi/arkinmodi.com/commit/5118e9938f37309b17555356e296889893d6d1d3))
+
 ## [2.10.25](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.24...v2.10.25) (2023-02-20)
 
 
