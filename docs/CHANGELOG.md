@@ -1,3 +1,10 @@
+## [2.10.27](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.26...v2.10.27) (2023-03-06)
+
+
+### Bug Fixes
+
+* bump astro from 2.0.13 to 2.0.17 ([#146](https://github.com/arkinmodi/arkinmodi.com/issues/146)) ([fbab3db](https://github.com/arkinmodi/arkinmodi.com/commit/fbab3db4edc4079da580716b95ca760f8f7ff5dc))
+
 ## [2.10.26](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.25...v2.10.26) (2023-02-27)
 
 
