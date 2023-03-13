@@ -1,3 +1,10 @@
+## [2.10.28](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.27...v2.10.28) (2023-03-13)
+
+
+### Bug Fixes
+
+* bump @astrojs/vercel from 3.1.2 to 3.2.0 ([#147](https://github.com/arkinmodi/arkinmodi.com/issues/147)) ([a620cfb](https://github.com/arkinmodi/arkinmodi.com/commit/a620cfb8a31bd7b22f9e5187ac63458932f61792))
+
 ## [2.10.27](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.26...v2.10.27) (2023-03-06)
 
 
