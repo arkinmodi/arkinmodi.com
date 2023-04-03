@@ -12,7 +12,7 @@
     "prettify": "prettier -w --plugin-search-dir=. --plugin=./node_modules/prettier-plugin-astro '**/*.{ts,tsx,mdx,json,js,mjs,cjs,astro}'"
   },
   "devDependencies": {
-    "@astrojs/tailwind": "^3.0.0",
+    "@astrojs/tailwind": "^3.1.1",
     "@astrojs/vercel": "^3.2.1",
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.4",
