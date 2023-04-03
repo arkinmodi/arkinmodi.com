@@ -1,3 +1,10 @@
+## [2.10.33](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.32...v2.10.33) (2023-04-03)
+
+
+### Bug Fixes
+
+* bump @astrojs/tailwind from 3.0.1 to 3.1.1 ([#152](https://github.com/arkinmodi/arkinmodi.com/issues/152)) ([dff4201](https://github.com/arkinmodi/arkinmodi.com/commit/dff4201435acf1a8d231f56422bceaef9a1d33be))
+
 ## [2.10.32](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.31...v2.10.32) (2023-03-27)
 
 
