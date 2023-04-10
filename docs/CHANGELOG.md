@@ -1,3 +1,10 @@
+## [2.10.35](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.34...v2.10.35) (2023-04-10)
+
+
+### Bug Fixes
+
+* bump @commitlint/cli from 17.4.3 to 17.5.1 ([#154](https://github.com/arkinmodi/arkinmodi.com/issues/154)) ([189d843](https://github.com/arkinmodi/arkinmodi.com/commit/189d8432fe7ecd651139a3cc774e2b9f6b7ab97d))
+
 ## [2.10.34](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.33...v2.10.34) (2023-04-03)
 
 
