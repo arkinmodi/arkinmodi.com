@@ -1,3 +1,10 @@
+## [2.10.37](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.36...v2.10.37) (2023-04-17)
+
+
+### Bug Fixes
+
+* bump github/super-linter from 4.10.1 to 4.10.2 ([#157](https://github.com/arkinmodi/arkinmodi.com/issues/157)) ([da455ce](https://github.com/arkinmodi/arkinmodi.com/commit/da455ced28586d5219cd1842aa340c36b151f2d6))
+
 ## [2.10.36](https://github.com/arkinmodi/arkinmodi.com/compare/v2.10.35...v2.10.36) (2023-04-10)
 
 
