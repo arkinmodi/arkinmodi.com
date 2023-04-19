@@ -15,7 +15,7 @@
     "@astrojs/tailwind": "^3.1.1",
     "@astrojs/vercel": "^3.2.1",
     "@octokit/types": "^6.41.0",
-    "astro": "^2.1.9",
+    "astro": "^2.3.0",
     "daisyui": "^2.51.5",
     "prettier": "^2.7.1",
     "prettier-plugin-astro": "^0.8.0",
