@@ -1,6 +1,7 @@
 ---
-name: Main Pipeline
+name: Linting
 on:
+  pull_request:
   push:
     branches:
       - main
@@ -21,7 +22,7 @@ jobs:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FILTER_REGEX_EXCLUDE: (.*docs\/CHANGELOG\.md|.tsconfig\.json)
+          FILTER_REGEX_EXCLUDE: .tsconfig\.json
           JAVASCRIPT_DEFAULT_STYLE: prettier
           TYPESCRIPT_DEFAULT_STYLE: prettier
           IGNORE_GITIGNORED_FILES: true
