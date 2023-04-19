@@ -12,6 +12,11 @@ const description = "A website about me!";
 const repositories: GetRepositoryMetadataInput[] = [
   {
     owner: "arkinmodi",
+    repo: "project-Sayyara",
+    displayName: "🚗 Sayyara",
+  },
+  {
+    owner: "arkinmodi",
     repo: "Mastermind-Board-Game",
     displayName: "🕹 Mastermind Board Game",
   },
@@ -60,12 +65,29 @@ const repositoriesMetadata = await getRepositoriesMetadata(repositories);
     <!-- About Me -->
     <div class="p-2 text-center text-black dark:text-slate-100">
       <h1 class="p-4 text-6xl font-bold">Arkin Modi</h1>
-      <h2 class="text-md">
-        Software Engineering & Management Co-op Student @
+      <h2>New Grad Junior Software Developer</h2>
+      <h2>
+        Graduate of
+        <a
+          href="https://www.eng.mcmaster.ca/cas/programs/degree-options/beng-software-engineering"
+          target="_blank"
+          class="inline-block border-b-2 border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-200"
+        >
+          Software Engineering
+        </a>
+        &
+        <a
+          href="https://www.eng.mcmaster.ca/engineering-management-program"
+          target="_blank"
+          class="inline-block border-b-2 border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-200"
+        >
+          Management
+        </a>
+        Co-op @
         <a
           href="https://www.mcmaster.ca/"
           target="_blank"
-          class="border-b-2 border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-200"
+          class="inline-block border-b-2 border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-200"
         >
           McMaster University
         </a>
@@ -74,9 +96,9 @@ const repositoriesMetadata = await getRepositoriesMetadata(repositories);
         Previously: <a
           href="https://www.ibm.com/ca-en"
           target="_blank"
-          class="border-b-2 border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-200"
+          class="inline-block border-b-2 border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-200"
         >
-          IBM Canada
+          IBM
         </a>
       </h2>
     </div>
