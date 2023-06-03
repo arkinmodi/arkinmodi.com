@@ -17,7 +17,7 @@
     "@octokit/types": "^6.41.0",
     "astro": "^2.3.2",
     "daisyui": "^2.51.5",
-    "prettier": "^2.7.1",
+    "prettier": "^2.8.8",
     "prettier-plugin-astro": "^0.8.0",
     "prettier-plugin-tailwindcss": "^0.2.7",
     "simple-icons": "^7.21.0"
