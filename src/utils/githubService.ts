@@ -1,4 +1,4 @@
-import { Endpoints } from "@octokit/types";
+import type { Endpoints } from "@octokit/types";
 
 export type GetRepositoryMetadataInput = {
   owner: string;
@@ -25,9 +25,9 @@ export const getRepositoriesMetadata: (
     const repoMetadata = await getRepo(repo.owner, repo.repo);
     allRepoMetadata.push({
       url: repoMetadata.html_url,
-      homepage: repoMetadata.homepage,
+      homepage: repoMetadata.homepage!,
       displayName: repo.displayName,
-      description: repoMetadata.description,
+      description: repoMetadata.description!,
     });
   }
 

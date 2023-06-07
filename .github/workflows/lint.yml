@@ -1,6 +1,6 @@
 ---
 name: Linting
-on:
+"on":
   pull_request:
   push:
     branches:
@@ -16,15 +16,35 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Lint Code Base 🧽
-        uses: github/super-linter/slim@v4.10.2
-        env:
-          VALIDATE_ALL_CODEBASE: false
-          DEFAULT_BRANCH: main
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FILTER_REGEX_EXCLUDE: .tsconfig\.json
-          JAVASCRIPT_DEFAULT_STYLE: prettier
-          TYPESCRIPT_DEFAULT_STYLE: prettier
-          IGNORE_GITIGNORED_FILES: true
-          VALIDATE_BASH: false
-          YAML_ERROR_ON_WARNING: true
+      - name: Setup Python 🐍
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install Python Linters 🚧
+        run: pip install yamllint
+
+      - name: Run YAMLlint 🧽
+        run: yamllint --strict .
+
+      - name: Setup Node 💻
+        uses: actions/setup-node@v3
+        with:
+          cache: "npm"
+
+      - name: Install Node Linters 🚧
+        run: npm ci
+
+      - name: Run Typecheck 🧽
+        run: npx tsc --project ./tsconfig.json
+
+      - name: Run Prettier 🧽
+        run: >
+          npx prettier
+          --check
+          --plugin-search-dir=.
+          --plugin=./node_modules/prettier-plugin-astro
+          '**/*.{ts,tsx,md,mdx,json,js,mjs,cjs,astro,yml,yaml}'
+
+      - name: Run ESLint 🧽
+        run: npx eslint --fix --max-warnings 0 . --ext .js,.ts,.tsx,.astro
