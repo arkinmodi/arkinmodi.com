@@ -7,44 +7,27 @@ name: Linting
       - main
 
 jobs:
-  code_lint:
-    name: Lint Code Base 🧽
+  yamllint:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-
-      - name: Setup Python 🐍
-        uses: actions/setup-python@v4
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
           python-version: "3.x"
+      - run: python3 -m pip install yamllint
+      - run: python3 -m yamllint --strict .
 
-      - name: Install Python Linters 🚧
-        run: pip install yamllint
-
-      - name: Run YAMLlint 🧽
-        run: yamllint --strict .
-
-      - name: Setup Node 💻
-        uses: actions/setup-node@v3
+  node_linters:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           cache: "npm"
-
-      - name: Install Node Linters 🚧
-        run: npm ci
-
-      - name: Run Typecheck 🧽
-        run: npx tsc --project ./tsconfig.json
-
-      - name: Run Prettier 🧽
-        run: >
+      - run: npm ci
+      - run: npx tsc --project ./tsconfig.json
+      - run: >
           npx prettier
           --check
-          --plugin-search-dir=.
-          --plugin=./node_modules/prettier-plugin-astro
-          '**/*.{ts,tsx,md,mdx,json,js,mjs,cjs,astro,yml,yaml}'
-
-      - name: Run ESLint 🧽
-        run: npx eslint --fix --max-warnings 0 . --ext .js,.ts,.tsx,.astro
+          '**/*.{ts,tsx,md,mdx,json,js,mjs,cjs,astro,yml,yaml,glsl}'
+      - run: npx eslint --fix --max-warnings 0 . --ext .js,.ts,.tsx,.astro
