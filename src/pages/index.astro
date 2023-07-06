@@ -1,10 +1,11 @@
 ---
-import LinkTree from "@components/LinkTree.astro";
-import Project from "@components/Project.astro";
+import Gradient from "~/components/Gradient.astro";
+import LinkTree from "~/components/LinkTree.astro";
+import Project from "~/components/Project.astro";
 import {
   GetRepositoryMetadataInput,
   getRepositoriesMetadata,
-} from "@utils/githubService";
+} from "~/utils/githubService";
 
 const title = "Arkin Modi";
 const description = "A website about me!";
@@ -47,23 +48,14 @@ const repositoriesMetadata = await getRepositoriesMetadata(repositories);
     <meta name="viewport" content="width=device-width" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <meta
-      name="theme-color"
-      media="(prefers-color-scheme: light)"
-      content="#f1f5f9"
-    />
-    <meta
-      name="theme-color"
-      media="(prefers-color-scheme: dark)"
-      content="#1e293b"
-    />
   </head>
 
   <body
-    class="relative flex min-h-screen w-screen flex-col items-center justify-center bg-slate-100 dark:bg-slate-800"
+    class="relative flex min-h-screen w-screen flex-col items-center justify-center"
   >
+    <Gradient />
     <!-- About Me -->
-    <div class="p-2 text-center text-black dark:text-slate-100">
+    <div class="p-2 text-center text-black">
       <h1 class="p-4 text-6xl font-bold">Arkin Modi</h1>
       <h2>New Grad Junior Software Developer</h2>
       <h2>
@@ -71,7 +63,7 @@ const repositoriesMetadata = await getRepositoriesMetadata(repositories);
         <a
           href="https://www.eng.mcmaster.ca/cas/programs/degree-options/beng-software-engineering"
           target="_blank"
-          class="inline-block border-b-2 border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-200"
+          class="inline-block border-b-2 border-solid border-slate-400 hover:border-slate-800"
         >
           Software Engineering
         </a>
@@ -79,7 +71,7 @@ const repositoriesMetadata = await getRepositoriesMetadata(repositories);
         <a
           href="https://www.eng.mcmaster.ca/engineering-management-program"
           target="_blank"
-          class="inline-block border-b-2 border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-200"
+          class="inline-block border-b-2 border-solid border-slate-400 hover:border-slate-800"
         >
           Management
         </a>
@@ -87,7 +79,7 @@ const repositoriesMetadata = await getRepositoriesMetadata(repositories);
         <a
           href="https://www.mcmaster.ca/"
           target="_blank"
-          class="inline-block border-b-2 border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-200"
+          class="inline-block border-b-2 border-solid border-slate-400 hover:border-slate-800"
         >
           McMaster University
         </a>
@@ -96,7 +88,7 @@ const repositoriesMetadata = await getRepositoriesMetadata(repositories);
         Previously: <a
           href="https://www.ibm.com/ca-en"
           target="_blank"
-          class="inline-block border-b-2 border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-200"
+          class="inline-block border-b-2 border-solid border-slate-400 hover:border-slate-800"
         >
           IBM
         </a>

@@ -9,15 +9,13 @@ export interface Props {
 const { title, repoUrl, demoUrl, description } = Astro.props as Props;
 ---
 
-<div
-  class="min-h-36 w-96 rounded-md border-2 border-slate-800 p-3 text-black dark:border-slate-100 dark:text-slate-100"
->
+<div class="min-h-36 w-96 rounded-md border-2 border-slate-800 p-3 text-black">
   <h1>{title}</h1>
   <div class="pb-2 pt-1">
     <a
       href={repoUrl}
       target="_blank"
-      class="inline-block border-b-2 border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-200"
+      class="inline-block border-b-2 border-solid border-slate-400 hover:border-slate-800"
     >
       code
     </a>
@@ -28,7 +26,7 @@ const { title, repoUrl, demoUrl, description } = Astro.props as Props;
           <a
             href={demoUrl}
             target="_blank"
-            class="inline-block border-b-2 border-solid border-slate-400 hover:border-slate-800 dark:hover:border-slate-200"
+            class="inline-block border-b-2 border-solid border-slate-400 hover:border-slate-800"
           >
             demo
           </a>

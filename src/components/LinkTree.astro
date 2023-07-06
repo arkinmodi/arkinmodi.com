@@ -1,5 +1,5 @@
 ---
-import * as icons from "simple-icons/icons";
+import * as icons from "simple-icons";
 ---
 
 <div class="flex w-[80vw] flex-wrap justify-center gap-4">
@@ -9,10 +9,7 @@ import * as icons from "simple-icons/icons";
     class="tooltip tooltip-bottom w-8"
     data-tip="Connect with me on LinkedIn!"
   >
-    <div
-      class="fill-slate-800 dark:fill-slate-100"
-      set:html={icons.siLinkedin.svg}
-    />
+    <div class="fill-slate-800" set:html={icons.siLinkedin.svg} />
   </a>
   <a
     href="https://www.github.com/arkinmodi/"
@@ -20,10 +17,7 @@ import * as icons from "simple-icons/icons";
     class="tooltip tooltip-bottom w-8"
     data-tip="Build with me on GitHub!"
   >
-    <div
-      class="fill-slate-800 dark:fill-slate-100"
-      set:html={icons.siGithub.svg}
-    />
+    <div class="fill-slate-800" set:html={icons.siGithub.svg} />
   </a>
   <a
     href="http://resume.arkinmodi.com/"
@@ -31,10 +25,7 @@ import * as icons from "simple-icons/icons";
     class="tooltip tooltip-bottom w-8"
     data-tip="Checkout my Resume!"
   >
-    <div
-      class="fill-slate-800 dark:fill-slate-100"
-      set:html={icons.siMicrosoftword.svg}
-    />
+    <div class="fill-slate-800" set:html={icons.siMicrosoftword.svg} />
   </a>
   <a
     href="mailto:arkinmodi@gmail.com"
@@ -42,9 +33,6 @@ import * as icons from "simple-icons/icons";
     class="tooltip tooltip-bottom w-8"
     data-tip="Email me!"
   >
-    <div
-      class="fill-slate-800 dark:fill-slate-100"
-      set:html={icons.siGmail.svg}
-    />
+    <div class="fill-slate-800" set:html={icons.siGmail.svg} />
   </a>
 </div>
