@@ -7,6 +7,39 @@ name: Linting
       - main
 
 jobs:
+  eslint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          cache: "npm"
+      - run: npm ci
+      - run: npx eslint --fix --max-warnings 0 . --ext .js,.ts,.tsx,.astro
+
+  prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          cache: "npm"
+      - run: npm ci
+      - run: >
+          npx prettier
+          --check
+          '**/*.{ts,tsx,md,mdx,json,js,mjs,cjs,astro,yml,yaml,glsl,prettierrc}'
+
+  typescript:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          cache: "npm"
+      - run: npm ci
+      - run: npx tsc --project ./tsconfig.json
+
   yamllint:
     runs-on: ubuntu-latest
     steps:
@@ -16,18 +49,3 @@ jobs:
           python-version: "3.x"
       - run: python3 -m pip install yamllint
       - run: python3 -m yamllint --strict .
-
-  node_linters:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          cache: "npm"
-      - run: npm ci
-      - run: npx tsc --project ./tsconfig.json
-      - run: >
-          npx prettier
-          --check
-          '**/*.{ts,tsx,md,mdx,json,js,mjs,cjs,astro,yml,yaml,glsl}'
-      - run: npx eslint --fix --max-warnings 0 . --ext .js,.ts,.tsx,.astro
