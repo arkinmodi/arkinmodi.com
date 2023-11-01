@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.0.0",
-    "@astrojs/vercel": "^4.0.0",
+    "@astrojs/vercel": "^4.0.5",
     "@octokit/types": "^11.1.0",
     "@types/three": "^0.155.0",
     "@typescript-eslint/parser": "^6.5.0",
