@@ -1,5 +1,8 @@
+# yamllint disable rule:line-length
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+# yamllint enable rule:line-length
 ---
-name: Linting
+name: Lint
 "on":
   pull_request:
   push:
@@ -10,20 +13,20 @@ jobs:
   eslint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          cache: "npm"
+          cache: npm
       - run: npm ci
       - run: npx eslint --fix --max-warnings 0 . --ext .js,.ts,.tsx,.astro
 
   prettier:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          cache: "npm"
+          cache: npm
       - run: npm ci
       - run: >
           npx prettier
@@ -33,19 +36,19 @@ jobs:
   typescript:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          cache: "npm"
+          cache: npm
       - run: npm ci
       - run: npx tsc --project ./tsconfig.json
 
   yamllint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-python@v4
         with:
-          python-version: "3.x"
+          python-version: 3.x
       - run: python3 -m pip install yamllint
       - run: python3 -m yamllint --strict .
