@@ -29,7 +29,7 @@
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-glsl": "^0.2.3",
     "prettier-plugin-tailwindcss": "^0.7.2",
-    "simple-icons": "^16.7.0",
+    "simple-icons": "12.4.0",
     "three": "^0.182.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.54.0"
