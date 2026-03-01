@@ -17,21 +17,21 @@
   "devDependencies": {
     "@astrojs/tailwind": "^6.0.2",
     "@astrojs/vercel": "^9.0.4",
-    "@eslint/js": "^9.39.2",
+    "@eslint/js": "^10.0.1",
     "@octokit/types": "^16.0.0",
     "@types/three": "^0.182.0",
-    "@typescript-eslint/parser": "^8.54.0",
-    "astro": "^5.17.1",
-    "daisyui": "^5.5.18",
-    "eslint": "^9.39.2",
-    "eslint-plugin-astro": "^1.5.0",
+    "@typescript-eslint/parser": "^8.56.1",
+    "astro": "^5.18.0",
+    "daisyui": "^5.5.19",
+    "eslint": "^10.0.2",
+    "eslint-plugin-astro": "^1.6.0",
     "prettier": "^3.2.5",
     "prettier-plugin-astro": "^0.14.1",
-    "prettier-plugin-glsl": "^0.2.3",
+    "prettier-plugin-glsl": "^0.2.4",
     "prettier-plugin-tailwindcss": "^0.7.2",
-    "simple-icons": "12.4.0",
-    "three": "^0.182.0",
+    "simple-icons": "16.10.0",
+    "three": "^0.183.2",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.54.0"
+    "typescript-eslint": "^8.56.1"
   }
 }
